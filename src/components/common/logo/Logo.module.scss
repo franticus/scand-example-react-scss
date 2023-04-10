@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+
+  &__icon {
+    display: inline-block;
+    margin-right: 11.27px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 43.25px;
+    line-height: 34px;
+  }
+}

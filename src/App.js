@@ -1,11 +1,10 @@
 import './App.scss';
+import { Header } from './components';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        123
-      </header>
+      <Header />
     </div>
   );
 }
