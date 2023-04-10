@@ -1,0 +1,27 @@
+.latestNews {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 96px auto;
+  max-width: 1000px;
+
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--deep-black);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

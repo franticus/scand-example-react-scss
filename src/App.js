@@ -2,17 +2,18 @@ import './App.scss';
 import {
   Header,
   Navbar,
-  BlogItemHorizontal
+  LatestNews
 } from './components';
-import { Devider } from './components/common';
+import { Devider, BlogItem } from './components/common';
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <BlogItemHorizontal />
+      <BlogItem size="lg" />
       <Devider />
+      <LatestNews />
     </div>
   );
 }

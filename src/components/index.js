@@ -1,3 +1,3 @@
 export * from './navbar/Navbar';
 export * from './header/Header';
-export * from './blogItemHorizontal/BlogItemHorizontal';
+export * from './latestNews/LatestNews';
