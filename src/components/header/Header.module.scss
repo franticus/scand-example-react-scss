@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 1200px;
+  border: 1px solid red;
+  height: 183px;
+
+  &__secondary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(-black);
+  }
+
+  &__primary {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: var(-black);
+  }
+}
