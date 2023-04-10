@@ -1,10 +1,10 @@
 import './App.scss';
-import { Header } from './components';
+import { Navbar } from './components';
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
     </div>
   );
 }
