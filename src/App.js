@@ -4,7 +4,7 @@ import {
   Navbar,
   LatestNews
 } from './components';
-import { Devider, BlogItem } from './components/common';
+import { Devider, BlogItem, Button } from './components/common';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <BlogItem size="lg" />
       <Devider />
       <LatestNews />
+      <Button color="ghost" size="lg" text="Load more" />
     </div>
   );
 }

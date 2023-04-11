@@ -27,10 +27,9 @@
   border: 2px solid transparent;
   border-radius: 24px;
   width: 60px;
-  transition: all 0.3s;
 
-  &:not(:first-child) {
-    margin-left: 40px;
+  &:not(:last-child) {
+    margin-right: 40px;
   }
 
   &__selected {

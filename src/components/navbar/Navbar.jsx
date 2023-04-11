@@ -1,6 +1,5 @@
 import React from 'react';
-import cn from 'classnames';
-import { Logo } from '../common';
+import { Logo, Button } from '../common';
 import s from './Navbar.module.scss';
 
 export const Navbar = () => {
@@ -11,7 +10,7 @@ export const Navbar = () => {
         <a className={s.link} href='/'>Product</a>
         <a className={s.link} href='/'>Services</a>
         <a className={s.link} href='/'>About</a>
-        <a className={cn(s.link, s.link__selected)} href='/'>Log In</a>
+        <Button color="ghost" size="sm" text="Log in" />
       </div>
     </div>
   )
