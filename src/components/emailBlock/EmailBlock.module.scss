@@ -21,13 +21,14 @@
   max-width: 716px;
   margin-bottom: 48px;
   font-family: var(--font-secondary);
+  transition: all .3s;
 }
 
 .email {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 60%;
 
   &__input {
     background: var(--white);

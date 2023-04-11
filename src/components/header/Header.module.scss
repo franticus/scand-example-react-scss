@@ -24,6 +24,7 @@
     line-height: 84px;
     font-family: var(--font-secondary);
     color: var(--black);
+    transition: all .3s;
 
     @media (max-width: 736px) {
       font-size: 48px;
