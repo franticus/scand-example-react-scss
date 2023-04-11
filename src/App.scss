@@ -1,5 +1,9 @@
 .App {
-  margin: 0 auto;
   max-width: 1400px;
-  padding-bottom: 1000px;
+  padding: 56px 100px;
+  border: 2px solid red;
+
+  @media (max-width: 819px) {
+    padding: 50px;
+  }
 }

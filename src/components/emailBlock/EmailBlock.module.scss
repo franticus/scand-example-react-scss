@@ -4,9 +4,9 @@
   justify-content: flex-end;
   margin: 0 auto;
   flex-direction: column;
-  max-width: 1200px;
+  width: 100%;
   background: url(./img/mail-bg.png) no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: var(--white);
   border-radius: 12px;
   padding: 72px;
@@ -20,16 +20,21 @@
   text-align: center;
   max-width: 716px;
   margin-bottom: 48px;
+  font-family: var(--font-secondary);
 }
 
 .email {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
 
   &__input {
     background: var(--white);
     border: 2px solid var(--white);
     border-radius: 240px;
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
     outline: none;
     padding: 12px 32px;
     font-weight: 400;
@@ -41,6 +46,18 @@
 
     &:focus {
       transform: scale(1.05);
+    }
+  }
+}
+
+@media (max-width: 1099px) {
+  .email {
+    flex-direction: column;
+    width: 100%;
+
+    &__input {
+      margin-bottom: 20px;
+      text-align: center;
     }
   }
 }
