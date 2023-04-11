@@ -3,7 +3,8 @@ import {
   Header,
   Navbar,
   LatestNews,
-  EmailBlock
+  EmailBlock,
+  Footer
 } from './components';
 import { Devider, BlogItem, Button } from './components/common';
 
@@ -17,6 +18,7 @@ const App = () => {
       <LatestNews />
       <Button color="ghost" size="lg" text="Load more" />
       <EmailBlock />
+      <Footer />
     </div>
   );
 }

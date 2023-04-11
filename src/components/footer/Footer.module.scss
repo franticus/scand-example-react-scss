@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 183px;
+  margin: 184px auto 134px auto;
+}
+
+.logoBox {
+  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 240px;
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray);
+    min-width: 200px;
+  }
+}
+
+.container {
+  margin: 0 179px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 642px;
+}
+
+.linksBox {
+  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 240px;
+  margin: 0 40px;
+
+  &__link {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--gray);
+    transition: all .3s;
+
+    &:hover {
+      color: var(--deep-black);
+      transform: scale(1.02);
+    }
+  }
+
+  &__link:first-child {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--deep-black);
+  }
+}
+
+.tag::after {
+  content: 'Hiring!';
+  position: absolute;
+  left: 90px;
+  top: 2px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  background: #65E4A3;
+  border-radius: 120px;
+  color: var(--black);
+  padding: 1px 14px;
+}
