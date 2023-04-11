@@ -2,7 +2,8 @@ import './App.scss';
 import {
   Header,
   Navbar,
-  LatestNews
+  LatestNews,
+  EmailBlock
 } from './components';
 import { Devider, BlogItem, Button } from './components/common';
 
@@ -15,6 +16,7 @@ const App = () => {
       <Devider />
       <LatestNews />
       <Button color="ghost" size="lg" text="Load more" />
+      <EmailBlock />
     </div>
   );
 }

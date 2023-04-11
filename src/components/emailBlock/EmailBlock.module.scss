@@ -1,0 +1,46 @@
+.emailBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 1200px;
+  background: url(./img/mail-bg.png) no-repeat;
+  background-size: cover;
+  color: var(--white);
+  border-radius: 12px;
+  padding: 72px;
+  margin-top: 124px;
+}
+
+.title{
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  max-width: 716px;
+  margin-bottom: 48px;
+}
+
+.email {
+  display: flex;
+
+  &__input {
+    background: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 240px;
+    width: 370px;
+    outline: none;
+    padding: 12px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--deep-black);
+    margin-right: 24px;
+    transition: all .3s;
+
+    &:focus {
+      transform: scale(1.05);
+    }
+  }
+}
