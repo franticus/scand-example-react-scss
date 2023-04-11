@@ -104,3 +104,40 @@
     }
   }
 }
+
+@media (max-width: 639px) {
+  .footer {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin: 10% auto;
+  }
+
+  .container {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 642px;
+  }
+
+  .linksBox {
+    margin: 20px 0;
+    height: 100px;
+  }
+
+  .logoBox {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 30px;
+
+    &__text {
+      margin: 20px 0 0;
+      min-width: 100px;
+    }
+  }
+}

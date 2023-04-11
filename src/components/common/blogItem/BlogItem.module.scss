@@ -23,11 +23,6 @@
   margin-left: 20px;
 }
 
-.Block {
-  width: 100%;
-  max-width: 550px;
-}
-
 .mainImg {
   display: inline-block;
   border-radius: 24px;
@@ -129,5 +124,32 @@
 @media (max-width: 999px) {
   .sm {
     width: 45%;
+  }
+
+  .mainTitle {
+    font-size: 48px;
+    line-height: 62px;
+    color: var(--deep-black);
+  }
+}
+
+@media (max-width: 639px) {
+  .sm {
+    width: 100%;
+  }
+
+  .sm .blogItem {
+    height: 90%;
+  }
+
+  .lg .blogItem {
+    margin: 42px auto;
+  }
+
+  .mainTitle {
+    font-size: 24px;
+    line-height: 42px;
+    color: var(--deep-black);
+    width: 80%;
   }
 }

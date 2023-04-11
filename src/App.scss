@@ -1,9 +1,13 @@
 .App {
   max-width: 1400px;
   padding: 56px 100px;
-  border: 2px solid red;
+  overflow: hidden;
 
   @media (max-width: 819px) {
     padding: 50px;
+  }
+
+  @media (max-width: 619px) {
+    padding: 10px;
   }
 }
