@@ -1,15 +1,16 @@
-.App {
-  max-width: 1400px;
-  width: 100vw;
-  padding: 56px 100px;
+.app {
   overflow: hidden;
-  margin: 0;
 
-  @media (max-width: 819px) {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0;
+  padding: 56px 100px;
+
+  @media (width <= 819px) {
     padding: 50px;
   }
 
-  @media (max-width: 619px) {
+  @media (width <= 619px) {
     padding: 10px;
   }
 }

@@ -1,44 +1,48 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  margin: 0 auto;
   flex-direction: column;
+  justify-content: flex-end;
+
   width: 100%;
   height: 183px;
-
-  @media (max-width: 639px) {
-    height: 140px;
-  }
+  margin: 0 auto;
 
   &__secondary {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
     color: var(--black);
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
   }
 
   &__primary {
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 84px;
-    font-family: var(--font-secondary);
-    color: var(--black);
     transition: all .3s;
 
-    @media (max-width: 736px) {
+    color: var(--black);
+
+    font-family: var(--font-secondary);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 84px;
+
+    @media (width <= 736px) {
       font-size: 48px;
       line-height: 68px;
     }
 
-    @media (max-width: 599px) {
+    @media (width <= 599px) {
       font-size: 38px;
       line-height: 48px;
     }
 
-    @media (max-width: 400px) {
+    @media (width <= 400px) {
       font-size: 28px;
       line-height: 28px;
     }
+  }
+
+  @media (width <= 639px) {
+    height: 140px;
   }
 }

@@ -10,7 +10,7 @@ import { Devider, BlogItem, Button } from './components/common';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <Header />
       <BlogItem size="lg" />

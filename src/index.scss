@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: rgb(255 255 255 / 0%);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -11,20 +11,21 @@ a {
 }
 
 body {
-  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin: 0;
+
   font-family: var(--font-primary);
 }
 
 :root {
-  --deep-black: #000000;
+  --deep-black: #000;
   --black: #0A2640;
-  --white: #FFFFFF;
-  --gray: #777777;
+  --white: #FFF;
+  --gray: #777;
   --primary: #65E4A3;
-
   --font-primary: 'Noto Sans', sans-serif;
   --font-secondary: 'Manrope', sans-serif;
 }
